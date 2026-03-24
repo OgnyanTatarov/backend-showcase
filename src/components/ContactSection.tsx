@@ -1,9 +1,9 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 
 const links = [
-  { icon: Github, label: "GitHub", href: "#", username: "github.com/yourusername" },
-  { icon: Linkedin, label: "LinkedIn", href: "#", username: "linkedin.com/in/yourusername" },
-  { icon: Mail, label: "Email", href: "mailto:you@example.com", username: "you@example.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/OgnyanTatarov", username: "github.com/OgnyanTatarov" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/ognyan-tatarov", username: "linkedin.com/in/ognyan-tatarov" },
+  { icon: Mail, label: "Email", href: "mailto:tatarovognyan@gmail.com", username: "tatarovognyan@gmail.com" },
 ];
 
 const ContactSection = () => {
@@ -16,8 +16,8 @@ const ContactSection = () => {
         </div>
 
         <p className="text-secondary-foreground max-w-lg mx-auto mb-10">
-          Open to opportunities, collaborations, and interesting backend challenges. 
-          Let's build something robust together.
+          Open to backend engineering opportunities, collaborations, and
+          challenging API and microservices projects.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

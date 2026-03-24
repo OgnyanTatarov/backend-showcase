@@ -1,19 +1,19 @@
 const categories = [
   {
-    label: "Languages",
-    items: ["Go", "Python", "TypeScript", "Rust", "Java"],
+    label: "Backend",
+    items: ["Node.js", "Java", "Supabase", "REST APIs"],
   },
   {
     label: "Databases",
-    items: ["PostgreSQL", "Redis", "MongoDB", "ClickHouse"],
+    items: ["PostgreSQL", "MySQL", "SQL"],
   },
   {
-    label: "Infrastructure",
-    items: ["Docker", "Kubernetes", "Terraform", "AWS", "GCP"],
+    label: "Cloud & Tools",
+    items: ["AWS", "Git", "Postman", "Swagger"],
   },
   {
-    label: "Tools & Frameworks",
-    items: ["gRPC", "Kafka", "GraphQL", "REST", "CI/CD"],
+    label: "Languages",
+    items: ["TypeScript", "JavaScript", "Dart", "PHP"],
   },
 ];
 

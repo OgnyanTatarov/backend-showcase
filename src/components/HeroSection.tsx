@@ -17,11 +17,11 @@ const HeroSection = () => {
           <span className="text-muted-foreground">$</span> whoami
         </p>
         <h1 className="font-mono text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
-          Backend <span className="text-primary text-glow">Engineer</span>
+          Ognyan <span className="text-primary text-glow">Tatarov</span>
         </h1>
         <p className="text-secondary-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-          I build scalable systems, APIs, and infrastructure that power great products. 
-          Passionate about clean architecture, performance, and reliability.
+          Backend-focused software developer with 2+ years of experience building and
+          scaling real-world applications, APIs, and cloud-deployed services.
         </p>
         <div className="font-mono text-sm text-muted-foreground flex items-center justify-center gap-2">
           <span className="text-primary">→</span>

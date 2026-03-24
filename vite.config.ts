@@ -3,8 +3,26 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+const getGithubPagesBase = () => {
+  const repository = process.env.GITHUB_REPOSITORY;
+
+  if (!repository) {
+    return "/";
+  }
+
+  const repoName = repository.split("/")[1];
+
+  // User/organization pages use the repository named "<owner>.github.io" at root.
+  if (repoName?.endsWith(".github.io")) {
+    return "/";
+  }
+
+  return `/${repoName}/`;
+};
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? getGithubPagesBase() : "/",
   server: {
     host: "::",
     port: 8080,
